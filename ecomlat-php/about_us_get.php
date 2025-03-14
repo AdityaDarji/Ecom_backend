@@ -13,6 +13,7 @@ if ($result->num_rows > 0) {
     echo json_encode($row);
 } else {
     // No entry found, return an empty JSON object
+    // added on 14-03-2025
     echo json_encode(["title" => "", "description" => ""]);
 }
 
